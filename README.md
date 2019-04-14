@@ -40,5 +40,5 @@ The output is a CSV with the input data and the NN classifier output!
 The output of the Classifier can be seen in my Tableau Public Area:
 [link](https://public.tableau.com/profile/christopher.martin1729#!/vizhome/FitBit-Analysis/Dashboard1)
 
-
+A quick look at the otuput can also be seen in this notebook:
 nn_weekend_classif_output.ipynb
