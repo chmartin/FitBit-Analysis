@@ -37,6 +37,8 @@ FitBit_Weekday_Classifier.py
 This is a python script anyone can run on thier personal fitbit data to train, and output the classification of their personal data.
 The output is a CSV with the input data and the NN classifier output!
 
-**TO DO** Trasform this NN output to personal recommendations.
+The output of the Classifier can be seen in my Tableau Public Area:
+[link](https://public.tableau.com/profile/christopher.martin1729#!/vizhome/FitBit-Analysis/Dashboard1)
+
 
 nn_weekend_classif_output.ipynb
