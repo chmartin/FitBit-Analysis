@@ -2,11 +2,13 @@ This is a github repository with my analysis of my FitBit personal data.
 
 The goal is to use TensorFlow and my personal data to classify 'office days' (weekday) vs 'recreation days' (weekend). Everyone has a different activity level, and my hope is that the model is general enough for another user to apply to their data as well. If my phone application can learn different categories of days it can better recomend actions for me to be healthier.
 
-Let's take an example: How should my tracker respod if I am working on a cool TensorFlow project and work though a weekend? If my tracker can identify this, later in the month it can reccommend to me to be more active because I did not have my normal activity.
+Let's take an example: How should my tracker respod if I am working on a cool TensorFlow project and am at the office though a weekend? If my tracker can identify this, later in the month it can reccommend to me to be more active because I did not have my normal activity levels earlier in the month. 
 
-My intuition was that my weekend days would have more total steps as I run errands.
-I also thought sleep longer on than weekdays. 
-Those weekend days may have a higher fraction of time in sedentary state, while I relax and do some mental reset.
+Currently, the app uses 'active minutes' is used to set goals for active days per week, and individual goals can be set for each different categort the tracker monitors on a daily, weekly, and monthly level. Can my tracker can use the totality of that information it classify days so a user with an abnormal work schedule monitor 'office days' (weekday) vs 'recreation days' (weekend).
+
+My intuition was that my weekend days would have more total steps on average as I run errands. However, my office days would be more consistant because weekend activities vary greatly.
+I also thought sleep longer on weekends than on weekdays. 
+Those weekend days may have also higher fraction of time in sedentary state, while I relax and do some mental reset.
 
 ### How to get your data
 
